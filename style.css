@@ -1,0 +1,19 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+}
+
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width:225px;
+    margin: auto;
+}
+
+.gameContainer{
+    text-align: center;
+}
